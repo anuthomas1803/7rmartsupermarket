@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Parameter(failed)">
+    <parameter name="password" value="admin"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="testscript.LoginPageTest7r">
+        <methods>
+          <include name="verifyUserIsAbleToLoginInValidUsername" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testscript.LoginPageTest7r -->
+    </classes>
+  </test> <!-- Parameter(failed) -->
+</suite> <!-- Failed suite [Suite] -->
